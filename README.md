@@ -45,7 +45,7 @@ This included:
 - Adding placeholder fields where variables did not exist historically
 - Reconciling changes in how enrollment and completers were reported across years
 
-#### The Appendix tables summarize how Title II variables from earlier reporting years were mapped to their 2024 equivalents.
+#### The Appendix_TitleII_Column_Harmonization.xlsx summarizes the Title II variables from earlier reporting years and how they were mapped to their 2024 equivalents.
 
 ### 2. Crosswalk Construction
 Because IPEDS and Title II do not share a common institutional identifier, the crosswalk is built using text matches of institution names, supported by systematic cleaning and fuzzy matching, as well as manual matching.
