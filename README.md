@@ -38,7 +38,7 @@ The crosswalk methodology is designed to pull directly from Title II files as th
 
 ## Methodology Summary
 
-### Title II Schema Harmonization (2012–2024)
+### 1. Title II Schema Harmonization (2012–2024)
 Our first challenge lay in the drastic change of the Title II reporting schema beginning with the 2019–20 reporting year. For purposes of sustaining consistency within a time series, all historical Title II data have been harmonized to conform to the 2024 Title II schema.
 This included:
 - Renaming prior report year variables to match 2024 conventions
@@ -47,7 +47,7 @@ This included:
 
 #### The Appendix tables summarize how Title II variables from earlier reporting years were mapped to their 2024 equivalents.
 
-### Crosswalk Construction
+### 2. Crosswalk Construction
 Because IPEDS and Title II do not share a common institutional identifier, the crosswalk is built using text matches of institution names, supported by systematic cleaning and fuzzy matching, as well as manual matching.
 #### Name Standardization
 The following techniques were applied to standardize institution names in both datasets:
@@ -76,7 +76,8 @@ When exact matches fail, fuzzy matching is applied using token-based similarity 
 - Programs expected not to map to IPEDS are retained and labeled accordingly
 - Remaining unmatched records are isolated for transparency and further review
 
-### Across the final merged dataset (28,168 Title II program-year records merged to the IPEDS crosswalk of 3,340 institution–program combinations): 
+### 3. Final Merge of Title II Program Data and TitleII - IPEDS Crosswalk
+Across the final merged dataset (28,168 Title II program-year records merged to the IPEDS crosswalk of 3,340 institution–program combinations): 
 - 25,048 records successfully match to an IPEDS UnitID, with unmatched cases largely attributable to non-IHE programs or unresolved name variations
 - A total of 2,705 records correspond to alternative, non-IHE-based programs, (or mislabeled program types) for which an IPEDS Unit ID is not expected and therefore intentionally left blank. 
 - The remaining 305 records (approximately 1.1% of all Title II rows) represent IHE-expected programs that could not be automatically matched due to persistent naming variation across years and reporting formats.
