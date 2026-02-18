@@ -94,7 +94,7 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 	│   ├── outputs/      # Final validated Title II + IPEDS Crosswalk
 	│		└── _FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx
 	├── docs/
-	│   ├── crosswalk_methodology.doc
+	│   ├── crosswalk_methodology.docx
 	│   ├── column_mapping_tables.md
 	│ 	├── TitleII_2012_2024_Schema_Harmonization.xlsx
 	│   └── TitleII_IPEDS_Data_Dictionary.xlsx
