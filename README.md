@@ -122,8 +122,7 @@ Where possible, intermediate outputs are cached to reduce repeated downloads and
 This project is released under the MIT License. You are free to use, adapt, modify, and redistribute the code and derived outputs with attribution. See the LICENSE file for details.
 
 ## Citation
-### (Full citation guidance forthcoming.)
-If you use this methodology or code in published work, please cite:
+### If you use this methodology or code in published work, please cite:
 
-	Quinn, S. (2026). Title II–IPEDS Crosswalk & Longitudinal Teacher Preparation Dataset (Version v1). [Online] Western Governors University - Craft Education. Available at https://github.com/stephanieandersonquinn-lab/title-ii-ipeds-crosswalk. Zenodo. https://doi.org/10.5281/zenodo.18676589
+Quinn, S. (2026). Title II–IPEDS Crosswalk & Longitudinal Teacher Preparation Dataset (Version v1). [Online] Western Governors University - Craft Education. Zenodo. Available at https://github.com/stephanieandersonquinn-lab/title-ii-ipeds-crosswalk. DOI: https://doi.org/10.5281/zenodo.18676589
 
