@@ -99,6 +99,7 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 	│ 	├── TitleII_2012_2024_Schema_Harmonization.xlsx
 	│   └── TitleII_IPEDS_Data_Dictionary.xlsx
 	│
+	├── CITATION.md
 	├── LICENSE
 	└── README.md
 
