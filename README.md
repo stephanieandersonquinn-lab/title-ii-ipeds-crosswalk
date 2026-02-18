@@ -91,13 +91,13 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 	│   └── merge_all_years_with_crosswalk.ipynb
 	│
 	├── data/
-	│   ├── raw/          # Source files (not redistributed)
-	│   ├── cache/        # Cached intermediate outputs
-	│   └── outputs/      # Final harmonized datasets
-	│
+	│   ├── outputs/      
+	│		└── _FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx    # Final validated Title II + IPEDS Crosswalk
 	├── docs/
 	│   ├── methodology.md
-	│   └── column_mapping_tables.md
+	│   ├── column_mapping_tables.md
+	│ 	├── TitleII_2012_2024_Schema_Harmonization.xlsx
+	│   └── TitleII_IPEDS_Data_Dictionary.xlsx
 	│
 	├── LICENSE
 	└── README.md
@@ -109,10 +109,10 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 
 Key outputs produced by this repository include:
 
-1. Longitudinal Title II dataset (2012–2024), harmonized to 2024 schema
-2. Validated Title II–IPEDS crosswalk
-3. Merged Title II + IPEDS dataset with institutional identifiers
-4. Audit tables identifying unmatched or non-IHE programs
+1. Longitudinal Title II dataset (2012–2024), harmonized to 2024 schema (titleII_schema_harmonization.ipynb)
+2. Validated Title II–IPEDS crosswalk (initial output requires final manual validation; titleII_ipeds_crosswalk.ipynb)
+3. Merged Title II + IPEDS dataset with institutional identifiers (merge_all_years_with_crosswalk.ipynb)
+4. Audit tables identifying unmatched or non-IHE programs (merge_all_years_with_crosswalk.ipynb)
 
 ## Reproducibility
 All notebooks are designed to run in Google Colab or a local Python environment.
