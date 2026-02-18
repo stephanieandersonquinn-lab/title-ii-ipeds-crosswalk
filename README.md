@@ -1,15 +1,15 @@
 # Title II–IPEDS Crosswalk & Longitudinal Teacher Preparation Dataset
 ## Overview
 
-This repository contains the open-source methodology and code created and used to construct a longitudinal crosswalk (also included) between two federal education datasets:
+This repository contains the open-source methodology and code I created and used to construct a longitudinal crosswalk (also included) between two federal education datasets:
 
 1. Integrated Postsecondary Education Data System (IPEDS)
 2. Title II (Sections 205–208) of the Higher Education Act (HEA)
 
-IPEDS and Title II data systems capture different yet complementary characteristics of teacher preparation programs in the U.S. and U.S. Territories. Each data source uses different identifiers and do not directly speak to one another. We developed a transparent and reproducible crosswalk between these sources, allowing for more detailed analysis by institutional and geographic context of where teachers are trained, in what subjects. Below is a description of how we compiled, cleaned, harmonized and merged the data. Also included is guidance to facilitate reuse or adaptation of our methodology.
+IPEDS and Title II data systems capture different yet complementary characteristics of teacher preparation programs in the U.S. and U.S. Territories. Each data source uses different identifiers and do not directly speak to one another. I developed a transparent and reproducible crosswalk between these sources, allowing for more detailed analysis by institutional and geographic context of where teachers are trained, in what subjects. Below is a description of how I compiled, cleaned, harmonized and merged the data. Also included is guidance to facilitate reuse or adaptation of our methodology.
 
 ## Compiling the Data 
-Here are more details about each data source we used:
+Here are more details about each data source used:
 
 ### 1. Integrated Postsecondary Education Data System (IPEDS)
 Data Used: IPEDS, [2023-24], General Information; Extract Date: July 2025
@@ -33,7 +33,7 @@ Title II reports provide information teacher prep programs that lead to certific
 
 Title II contains limited information at the institutional level or any geographic identifier below the state level. Also, it does not contain a stable institutional identifier, such as an IPEDS Unit ID, that would facilitate direct merging.
 
-*For this project, we accessed and downloaded unsuppressed Title II data prior to its removal from public access.
+*For this project, I accessed and downloaded unsuppressed Title II data prior to its removal from public access.
 The crosswalk methodology is designed to pull directly from Title II files as they are currently released, even though some program-level details are now suppressed in newer versions. This ensures the code remains reproducible and adaptable while preserving the richer historical record captured in earlier downloads.
 
 ## Methodology Summary
