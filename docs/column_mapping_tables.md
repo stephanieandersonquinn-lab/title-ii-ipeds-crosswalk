@@ -23,13 +23,35 @@ Where variables did not exist in earlier years, values are recorded as NA.
 | WhiteEnrollment | WhiteEnrollment | No change |
 | FemaleEnrollment | FemaleEnrollment | No change |
 | MaleEnrollment | MaleEnrollment | No change |
-| SuperAvgForStuTeach | SCEAvgHrsFor_StdntTch | Renamed in 2024 |
-| SuperAvgPriorStuTeach | SCEAvgHrsPrior_StdntTch | Renamed in 2024 |
-| SuperFTEAdjunct | SCENumAdjunctIHE | Renamed in 2024 |
+| HispanicEnrollment | HispanicEnrollment | No change |
+| IndianEnrollment | IndianEnrollment | No change |
+| IslanderEnrollment | IslanderEnrollment | No change |
+| MultiRacialEnrollment | MultiRacialEnrollment | No change |
+| CompletersCurrent | MCompletersCurrent | No change |
+| TotalEnrollment | TotalEnrollment | No change |
 | Program | Program | No change |
 | ProgramType | ProgramType | No change |
 | ProgramCode | ProgramCode | No change |
+| State | State | No change |
 | ReportYear | ReportYear | No change |
+| SchoolNeeds | SchoolNeeds | No change |
+| StateLocalNeeds | StateLocalNeeds | No change |
+| LocalityTrn | LocalityTrn | No change |
+| SpecEdCore | SpecEdCore | No change |
+| GenEdDisabilities | GenEdDisabilities | No change |
+| GenEdLEP | GenEdLEP | No change |
+| GenEdLowInc | GenEdLowInc | No change |
+| PGMinGPAEntry | PGMinGPAEntry | No change |
+| PGMinGPAExit | PGMinGPAExit | No change |
+| PGPrograms | PGPrograms | No change |
+| UGMinGPAEntry | UGMinGPAEntry | No change |
+| UGMinGPAExit | UGMinGPAExit | No change |
+| UGPrograms | UGPrograms | No change |
+| SuperAvgForStuTeach | SCEAvgHrsFor_StdntTch | Renamed in 2024 |
+| SuperAvgPriorStuTeach | SCEAvgHrsPrior_StdntTch | Renamed in 2024 |
+| SuperFTEAdjunct | SCENumAdjunctIHE | Renamed in 2024 |
+| SuperFTEFaculty | SuperFTEFaculty | No change |
+| SuperStudents | SuperStudents | No change |
 
 ---
 
