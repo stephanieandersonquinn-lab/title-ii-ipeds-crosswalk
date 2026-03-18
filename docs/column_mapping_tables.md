@@ -41,7 +41,17 @@ For pre-2020 data, these columns are included and filled as NA.
 - AsianCompleters
 - BlackCompleters
 - HispanicCompleters
+- IndianCompleters
+- IslanderCompleters
 - WhiteCompleters
+- FemaleCompleters
+- MaleCompleters
+- MultiRacialCompleters
+- OtherGenderCompleters
+- NonReportGenderCompleters
+- NonReportGenderEnrollment
+- NonReportRaceEthCompleters
+- NonReportRaceEthEnrollment
 - GrantMajors
 - TotalNumPrepPrgs
 - SCEAvgHrsPrior_TeachRcd
