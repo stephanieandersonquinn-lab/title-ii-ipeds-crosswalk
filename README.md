@@ -147,10 +147,10 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 
 Key outputs produced by this repository include:
 
-1. Longitudinal Title II dataset (2012–2024), harmonized to 2024 schema (titleII_schema_harmonization.ipynb)
-2. Validated Title II–IPEDS crosswalk (initial output requires final manual validation; titleII_ipeds_crosswalk.ipynb)
-3. Merged Title II + IPEDS dataset with institutional identifiers (merge_all_years_with_crosswalk.ipynb)
-4. Audit tables identifying unmatched or non-IHE programs (merge_all_years_with_crosswalk.ipynb)
+1. Longitudinal Title II dataset (2012–2024), harmonized to 2024 schema (`titleII_schema_harmonization.ipynb`)
+2. Validated Title II–IPEDS crosswalk (initial output requires final manual validation; `titleII_ipeds_crosswalk.ipynb`)
+3. Merged Title II + IPEDS dataset with institutional identifiers (`merge_all_years_with_crosswalk.ipynb`)
+4. Audit tables identifying unmatched or non-IHE programs (`merge_all_years_with_crosswalk.ipynb`)
 
 ---
 
