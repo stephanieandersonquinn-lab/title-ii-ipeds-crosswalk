@@ -8,6 +8,30 @@ This repository contains the open-source methodology and code I created and used
 
 IPEDS and Title II data systems capture different yet complementary characteristics of teacher preparation programs in the U.S. and U.S. Territories. Each data source uses different identifiers and do not directly speak to one another. I developed a transparent and reproducible crosswalk between these sources, allowing for more detailed analysis by institutional and geographic context of where teachers are trained, in what subjects. Below is a description of how I compiled, cleaned, harmonized and merged the data. Also included is guidance to facilitate reuse or adaptation of our methodology.
 
+## Quick Start
+
+To reproduce the full dataset or adapt this methodology:
+
+1. **Run `notebooks/titleII_schema_harmonization.ipynb`**  
+   → Creates the longitudinal Title II dataset (2012–2024)
+
+2. **Run `notebooks/titleII_ipeds_crosswalk.ipynb`**  
+   → Generates the initial Title II–IPEDS crosswalk (requires manual validation)  
+   → A finalized, validated crosswalk is provided at:  
+   `data/outputs/_FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx`
+
+3. **Run `notebooks/merge_all_years_with_crosswalk.ipynb`**  
+   → Produces the final merged dataset with institutional identifiers  
+   → This step uses the provided validated crosswalk:  
+   `_FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx`
+
+4. **(Optional) Enrich with institutional attributes**  
+   → Use the institution lookup files in `/data/outputs/` to add geographic and institutional characteristics
+
+---
+
+All notebooks are designed to run in Google Colab or a local Python environment.
+
 ## Compiling the Data 
 Here are more details about each data source used:
 
