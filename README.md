@@ -32,7 +32,7 @@ To reproduce the full dataset or adapt this methodology:
    `_FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx`
 
 4. **(Optional) Enrich with institutional attributes**  
-   → Use the institution lookup files in `/data/outputs/` to add geographic and institutional characteristics
+   → Use the institution lookup files in `/data/outputs/` to add geographic and institutional characteristics (Read: `ipeds_institution_lookup.md`)
 
 All notebooks are designed to run in Google Colab or a local Python environment.
 
