@@ -119,11 +119,11 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 	│   ├── optional_titleii_column_schema_audit.ipynb
 	│   ├── titleII_ipeds_crosswalk.ipynb
 	│   ├── merge_all_years_with_crosswalk.ipynb
-	│ 	└── ipeds_value_labeling.ipynb # Adds paired label columns to institution lookup
+	│ 	└── ipeds_value_labeling.ipynb  # Adds paired label columns to institution lookup
 	│	
 	├── data/
 	│   ├── outputs/      
-	│		├── _FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx  # Final validated Title II + IPEDS Crosswalk
+	│		├── _FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx   # Final validated Title II + IPEDS Crosswalk
 	│ 		├── TitleII_IPEDS_Institution_Lookup.xlsx
 	│ 		├── TitleII_IPEDS_Institution_Lookup_With_Labels.xlsx
 	│ 		└── IPEDS_Value_Labels_Lookup.xlsx
@@ -147,10 +147,11 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 
 Key outputs produced by this repository include:
 
-1. Longitudinal Title II dataset (2012–2024), harmonized to 2024 schema (`titleII_schema_harmonization.ipynb`)
-2. Validated Title II–IPEDS crosswalk (initial output requires final manual validation; `titleII_ipeds_crosswalk.ipynb`)
-3. Merged Title II + IPEDS dataset with institutional identifiers (`merge_all_years_with_crosswalk.ipynb`)
-4. Audit tables identifying unmatched or non-IHE programs (`merge_all_years_with_crosswalk.ipynb`)
+1. Longitudinal Title II dataset (2012–2024), harmonized to 2024 schema (Run: `titleII_schema_harmonization.ipynb`)
+2. Validated Title II–IPEDS crosswalk (initial output requires final manual validation; Run: `titleII_ipeds_crosswalk.ipynb`)
+3. Merged Title II + IPEDS dataset with institutional identifiers (Run: `merge_all_years_with_crosswalk.ipynb`)
+4. Audit tables identifying unmatched or non-IHE programs (Run: `merge_all_years_with_crosswalk.ipynb`)
+5. (Optional) Add institutional and geographic characteristics to the merged dataset (Read: `ipeds_institution_lookup.md`; Run: `ipeds_value_labeling.ipynb`)
 
 ---
 
