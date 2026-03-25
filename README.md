@@ -34,9 +34,9 @@ To reproduce the full dataset or adapt this methodology:
 4. **(Optional) Enrich with institutional attributes**  
    → Use the institution lookup files in `/data/outputs/` to add geographic and institutional characteristics
 
----
-
 All notebooks are designed to run in Google Colab or a local Python environment.
+
+---
 
 ## Compiling the Data 
 Here are more details about each data source used:
