@@ -130,6 +130,8 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 
 ##### Note: Raw federal data files are not redistributed in this repository. All notebooks are designed to pull directly from official public URLs where possible.
 
+---
+
 ## Outputs
 
 Key outputs produced by this repository include:
@@ -138,6 +140,87 @@ Key outputs produced by this repository include:
 2. Validated Title II–IPEDS crosswalk (initial output requires final manual validation; titleII_ipeds_crosswalk.ipynb)
 3. Merged Title II + IPEDS dataset with institutional identifiers (merge_all_years_with_crosswalk.ipynb)
 4. Audit tables identifying unmatched or non-IHE programs (merge_all_years_with_crosswalk.ipynb)
+
+---
+
+## Key Files Explained
+
+### Crosswalk File
+`_FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx`
+
+This file contains the validated mapping between Title II programs and IPEDS institutions.  
+It includes:
+
+- Matched IPEDS UnitIDs  
+- Match methodology indicators (exact, fuzzy, manual)  
+- Flags for expected non-matches  
+
+---
+
+### Institution Lookup Files
+
+These files allow researchers to enrich the merged dataset with institutional and geographic characteristics:
+
+- `TitleII_IPEDS_Institution_Lookup.xlsx`  
+  → Base institutional reference table (coded values)
+
+- `TitleII_IPEDS_Institution_Lookup_With_Labels.xlsx`  
+  → Includes human-readable label columns for IPEDS variables
+
+- `IPEDS_Value_Labels_Lookup.xlsx`  
+  → Mapping between coded IPEDS values and labels
+
+---
+
+### Data Dictionary
+`docs/TitleII_IPEDS_Data_Dictionary.xlsx`
+
+Provides definitions and descriptions for variables used across the dataset.
+
+---
+
+### Schema Harmonization Reference
+`docs/TitleII_2012_2024_Schema_Harmonization.xlsx`
+
+Documents how pre-2020 Title II variables were mapped to the 2024 schema.
+
+---
+
+## How to Use the Data
+
+To conduct analysis using this repository:
+
+1. Use the merged dataset (from `merge_all_years_with_crosswalk.ipynb`) as your base.
+
+2. Join institutional characteristics using the lookup file:
+
+```python
+df = df.merge(df_lookup, on="UnitID", how="left")
+
+3. Use _Label columns for interpretation and reporting (e.g., sector, control).
+4. Use ZIP and FIPS fields to merge with external datasets such as Census or labor market data.
+
+This workflow enables analysis of teacher preparation programs by:
+
+- Institution type
+- Geography
+- Program characteristics
+- Demographic composition
+
+---
+
+## Known Limitations
+
+- Title II does not include a stable institutional identifier, requiring text-based matching.
+- Some institutions appear under multiple name variations across years.
+- Approximately 305 records (~1.1%) remain unmatched due to persistent naming inconsistencies and had to be manually matched.
+- Alternative, non-IHE-based programs (2,705 records) are not expected to map to IPEDS institutions.
+- IPEDS does not distinguish teacher preparation subfields or licensure outcomes.
+- Title II data after recent releases include suppressed fields, limiting comparability with earlier years.
+
+Users should interpret unmatched records and crosswalk results accordingly.
+
+---
 
 ## Reproducibility
 All notebooks are designed to run in Google Colab or a local Python environment.
