@@ -8,6 +8,12 @@ This repository contains the open-source methodology and code I created and used
 
 IPEDS and Title II data systems capture different yet complementary characteristics of teacher preparation programs in the U.S. and U.S. Territories. Each data source uses different identifiers and do not directly speak to one another. I developed a transparent and reproducible crosswalk between these sources, allowing for more detailed analysis by institutional and geographic context of where teachers are trained, in what subjects. Below is a description of how I compiled, cleaned, harmonized and merged the data. Also included is guidance to facilitate reuse or adaptation of our methodology.
 
+---
+**End-to-End Pipeline:**  
+Title II (2012–2024) → Schema Harmonization → Crosswalk Matching (Exact + Fuzzy + Manual Validation) → Merge with IPEDS → Institution Lookup + Value Labels → Final Analytical Dataset
+
+---
+
 ## Quick Start
 
 To reproduce the full dataset or adapt this methodology:
