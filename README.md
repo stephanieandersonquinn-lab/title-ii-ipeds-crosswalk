@@ -112,12 +112,17 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 	│   ├── titleII_schema_harmonization.ipynb
 	│   ├── optional_titleii_column_schema_audit.ipynb
 	│   ├── titleII_ipeds_crosswalk.ipynb
-	│   └── merge_all_years_with_crosswalk.ipynb
-	│
+	│   ├── merge_all_years_with_crosswalk.ipynb
+	│ 	└── ipeds_value_labeling.ipynb # Adds paired label columns to institution lookup
+	│	
 	├── data/
-	│   ├── outputs/      # Final validated Title II + IPEDS Crosswalk
-	│		└── _FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx
+	│   ├── outputs/      
+	│		├── _FINAL_TitleII_with_IPEDS_Matched_UnitID_and_Fuzzy_Details.xlsx  # Final validated Title II + IPEDS Crosswalk
+	│ 		├── TitleII_IPEDS_Institution_Lookup.xlsx
+	│ 		├── TitleII_IPEDS_Institution_Lookup_With_Labels.xlsx
+	│ 		└── IPEDS_Value_Labels_Lookup.xlsx
 	├── docs/
+	│ 	├── ipeds_institution_lookup.md # How to use lookup + labeling files
 	│   ├── crosswalk_methodology.docx
 	│   ├── column_mapping_tables.md
 	│ 	├── TitleII_2012_2024_Schema_Harmonization.xlsx
