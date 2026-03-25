@@ -201,6 +201,7 @@ To conduct analysis using this repository:
 
 ```python
 df = df.merge(df_lookup, on="UnitID", how="left")
+```
 
 3. Use _Label columns for interpretation and reporting (e.g., sector, control).
 4. Use ZIP and FIPS fields to merge with external datasets such as Census or labor market data.
