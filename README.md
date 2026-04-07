@@ -63,7 +63,9 @@ Title II reports provide information teacher prep programs that lead to certific
 
 Title II contains limited information at the institutional level or any geographic identifier below the state level. Also, it does not contain a stable institutional identifier, such as an IPEDS Unit ID, that would facilitate direct merging.
 
-*For this project, I accessed and downloaded unsuppressed Title II data prior to its removal from public access.
+*For this project, I accessed and downloaded unsuppressed Title II data prior to its removal from public access. 
+- The one exception is Massachusetts' data from Report Year 2021 (Academic Year 2019 - 2020), which was missing all but one university's data. I accessed and added to our data set the missing MA universities from the suppressed Title II report year 2021.
+
 The crosswalk methodology is designed to pull directly from Title II files as they are currently released, even though some program-level details are now suppressed in newer versions. This ensures the code remains reproducible and adaptable while preserving the richer historical record captured in earlier downloads.
 
 ## Methodology Summary
