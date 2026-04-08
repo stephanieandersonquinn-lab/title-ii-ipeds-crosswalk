@@ -58,6 +58,8 @@ These data provide essential institutional and geographic context but do not dis
 Data Used: Report Years 2012 - 2024. Extract Date: July 2025*
 
 Title II reports provide information teacher prep programs that lead to certification or licensure, and consist of
+
+- Data from 50 states, 1 federal district (Washington D.C), and 7 territories (American Somoa, Federal States of Micronesia, Guam, Marshall Islands, Northern Mariana Islands, Puerto Rico, and U.S. Virgin Islands).
 - Program-level information by subject area (for example, early childhood, secondary math, special education)
 - Distinctions between traditional and alternative route programs
 - Characteristics on the demographic composition of candidates and completers
