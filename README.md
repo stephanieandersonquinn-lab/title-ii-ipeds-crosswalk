@@ -138,7 +138,10 @@ Across the final merged dataset (28,168 Title II program-year records merged to 
 	│   ├── crosswalk_methodology.docx
 	│   ├── column_mapping_tables.md
 	│ 	├── TitleII_2012_2024_Schema_Harmonization.xlsx
-	│   └── TitleII_IPEDS_Data_Dictionary.xlsx
+	│   ├── TitleII_IPEDS_Data_Dictionary.xlsx
+	│   ├── 2013_TitleII_Data_Documentation.pdf
+	│   ├── 2018_TitleII_Data_Documentation.pdf
+	│	└── 2020_TitleII_Data_Documentation.pdf
 	│
 	├── CITATION.md
 	├── LICENSE
@@ -192,8 +195,11 @@ These files allow researchers to enrich the merged dataset with institutional an
 
 ### Data Dictionary
 `docs/TitleII_IPEDS_Data_Dictionary.xlsx`
+- Provides definitions and descriptions for variables included in the crosswalk and institution lookup datasets.
 
-Provides definitions and descriptions for variables used across the dataset.
+`2013_TitleII_Data_Documentation.pdf`, `2018_TitleII_Data_Documentation.pdf`, `2020_TitleII_Data_Documentation.pdf`
+- Provides variable definitions for each tab of the Title II annual reports.
+- We used these dictionaries to identify changes in variables across report years (e.g. naming conventions, additions, deletions, etc.) 
 
 ---
 
