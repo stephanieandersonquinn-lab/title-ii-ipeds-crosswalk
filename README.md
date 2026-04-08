@@ -42,7 +42,7 @@ All notebooks are designed to run in Google Colab or a local Python environment.
 Here are more details about each data source used:
 
 ### 1. Integrated Postsecondary Education Data System (IPEDS)
-Data Used: IPEDS, [2023-24], General Information; Extract Date: July 2025
+Data Used: IPEDS, [2023-24]*, General Information; Extract Date: July 2025
 
 IPEDS is the U.S. Department of Education’s primary source of data on postsecondary institutions that participate in federal student aid programs. The IPEDS data used in this project include:
 
@@ -51,6 +51,8 @@ IPEDS is the U.S. Department of Education’s primary source of data on postseco
 - Geographic identifiers including ZIP codes and county-level FIPS codes
 
 These data provide essential institutional and geographic context but do not distinguish teacher preparation subfields or licensure outcomes.
+
+*Note: At the time of this analysis, 33 institutions reported in Title II had closed; 26 of those institutions closed prior to the 2023-24 IPEDS report year. In those cases, I used the institution's final report data spanning 2011 - 2022 IPEDS General Information reports.
 
 ### 2. Title II (HEA Sections 205–208)
 Data Used: Report Years 2012 - 2024. Extract Date: July 2025*
