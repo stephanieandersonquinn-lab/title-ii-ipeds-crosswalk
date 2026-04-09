@@ -27,7 +27,7 @@ Where variables did not exist in earlier years, values are recorded as NA.
 | IndianEnrollment | IndianEnrollment | No change |
 | IslanderEnrollment | IslanderEnrollment | No change |
 | MultiRacialEnrollment | MultiRacialEnrollment | No change |
-| CompletersCurrent | MCompletersCurrent | No change |
+| CompletersCurrent | CompletersCurrent | No change |
 | TotalEnrollment | TotalEnrollment | No change |
 | Program | Program | No change |
 | ProgramType | ProgramType | No change |
